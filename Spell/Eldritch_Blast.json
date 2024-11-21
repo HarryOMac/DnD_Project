@@ -1,0 +1,29 @@
+{
+    "attributes": {
+        "name": "Eldritch Blast",
+        "level": 0,
+        "classes": [
+            "Warlock"
+        ],
+        "description": "A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage."
+    },
+    "components": {
+        "Verbal": true,
+        "Somatic": true,
+        "Material": []
+    },
+    "utility": {
+        "damage": true,
+        "damageDice": "1d10",
+        "damageType": "Force",
+        "range": 120,
+        "duration": "Instantaneous",
+        "target": "A creature within range",
+        "castingTime": "1A",
+        "upcastable": false
+    },
+    "source": {
+        "book": "PHB",
+        "homebrew": false
+    }
+}
